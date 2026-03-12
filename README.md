@@ -1,10 +1,9 @@
-# Free Throw Analysis (figma)
+# NBA Data Storytelling
 
-This app uses Python data scripts to crawl and preprocess season data before running the Vite frontend.
+This app uses Python data scripts to crawl and preprocess season data before running the frontend.
 
 ## Setup and Run
 
-Run these commands in order from `figma/`:
 
 ```bash
 # 1) Crawl + process all data outputs
