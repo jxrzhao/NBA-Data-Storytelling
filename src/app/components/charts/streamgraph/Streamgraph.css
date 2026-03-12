@@ -1,0 +1,121 @@
+.streamgraph-panel {
+  background: linear-gradient(180deg, rgba(24, 24, 27, 0.88) 0%, rgba(12, 12, 14, 0.95) 100%);
+  border: 1px solid rgba(63, 63, 70, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.42);
+  padding: 1.2rem;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.streamgraph-chart-wrap {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.streamgraph-svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.streamgraph-grid {
+  stroke: rgba(82, 82, 91, 0.4);
+  stroke-width: 1;
+}
+
+.streamgraph-axis {
+  stroke: rgba(113, 113, 122, 0.8);
+  stroke-width: 1;
+}
+
+.streamgraph-tick-label {
+  fill: #71717a;
+  font-size: 12px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.streamgraph-axis-label {
+  fill: #71717a;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.streamgraph-layer {
+  transition: opacity 380ms ease;
+}
+
+.streamgraph-layer.is-active {
+  opacity: 0.9;
+}
+
+.streamgraph-layer.is-dimmed {
+  opacity: 0.1;
+}
+
+.streamgraph-legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 12px;
+  margin-top: 6px;
+  padding: 4px 8px 2px;
+  flex-shrink: 0;
+}
+
+.streamgraph-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: rgba(212, 212, 216, 0.95);
+  font-size: 12px;
+  transition: opacity 280ms ease;
+}
+
+.streamgraph-legend-item.is-dimmed {
+  opacity: 0.35;
+}
+
+.streamgraph-legend-item.is-active {
+  opacity: 1;
+}
+
+.streamgraph-legend-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  box-shadow: 0 0 0 1px rgba(24, 24, 27, 0.8);
+}
+
+.streamgraph-tooltip {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgba(24, 24, 27, 0.95);
+  border: 1px solid #3f3f46;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  color: #f4f4f5;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.streamgraph-tooltip-season {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.streamgraph-tooltip-row {
+  margin-top: 0.1rem;
+}
+
+.streamgraph-tooltip-note {
+  color: #d4d4d8;
+  margin-top: 0.25rem;
+}

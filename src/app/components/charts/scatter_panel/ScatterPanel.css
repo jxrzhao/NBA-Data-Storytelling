@@ -1,0 +1,245 @@
+.scatter-story-section {
+  background: #09090b;
+  padding: 2.5rem 0.6rem 2.4rem;
+  position: relative;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.scatter-story-inner {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.scatter-story-title {
+  color: #f4f4f5;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.scatter-story-subtitle {
+  color: #a1a1aa;
+  text-align: center;
+  max-width: 50rem;
+  margin: 0.45rem auto 1rem;
+}
+
+.scatter-grid-hint {
+  color: #a1a1aa;
+  font-size: 0.79rem;
+  margin: 0.15rem 0 0.45rem;
+}
+
+.scatter-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin-bottom: 0.45rem;
+}
+
+.scatter-controls-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  background: rgba(24, 24, 27, 0.8);
+  border: 1px solid #27272a;
+  border-radius: 0.55rem;
+  padding: 0.4rem 0.52rem;
+  color: #d4d4d8;
+  font-size: 0.76rem;
+}
+
+.scatter-controls-grid select,
+.scatter-controls-grid input[type="range"] {
+  width: 100%;
+}
+
+.scatter-controls-grid-thresholds {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: 0.62rem;
+}
+
+.scatter-main-card,
+.scatter-trend-card {
+  background: rgba(9, 9, 11, 0.8);
+  border: 1px solid #27272a;
+  border-radius: 1rem;
+  padding: 0.6rem;
+}
+
+.scatter-svg,
+.scatter-trend-svg {
+  width: 100%;
+  height: auto;
+}
+
+.scatter-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.scatter-mini-card {
+  background: rgba(9, 9, 11, 0.82);
+  border: 1px solid #27272a;
+  border-radius: 0.6rem;
+  padding: 0.35rem;
+  cursor: pointer;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.scatter-mini-card:hover {
+  border-color: #52525b;
+  transform: translateY(-1px);
+}
+
+.scatter-mini-header {
+  color: #d4d4d8;
+  font-size: 0.68rem;
+  margin-bottom: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scatter-mini-svg {
+  width: 100%;
+  height: auto;
+}
+
+.scatter-mini-count {
+  fill: #d4d4d8;
+  font-size: 10px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.scatter-high-region {
+  fill: rgba(249, 115, 22, 0.12);
+}
+
+.scatter-threshold-line {
+  stroke: #f97316;
+  stroke-dasharray: 4 3;
+  stroke-opacity: 0.9;
+}
+
+.scatter-axis {
+  stroke: #52525b;
+}
+
+.scatter-tick-line {
+  stroke: #52525b;
+}
+
+.scatter-tick-text {
+  fill: #71717a;
+  font-size: 12px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.scatter-axis-label {
+  fill: #a1a1aa;
+  font-size: 9px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.scatter-trend-card {
+  margin-top: 0.45rem;
+}
+
+.scatter-trend-card h4 {
+  color: #d4d4d8;
+  font-size: 0.8rem;
+  margin: 0 0 0.2rem;
+}
+
+.scatter-trend-line {
+  fill: none;
+  stroke: #f97316;
+  stroke-width: 2.5;
+}
+
+.scatter-trend-point {
+  fill: #fb923c;
+}
+
+.scatter-trend-season {
+  fill: #71717a;
+  font-size: 8px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.scatter-trend-grid {
+  stroke: #27272a;
+  stroke-dasharray: 3 3;
+}
+
+.scatter-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.scatter-modal {
+  width: min(1100px, 100%);
+  max-height: 92vh;
+  overflow: auto;
+  background: #09090b;
+  border: 1px solid #3f3f46;
+  border-radius: 0.9rem;
+  box-shadow: 0 20px 44px rgba(0, 0, 0, 0.4);
+}
+
+.scatter-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0.95rem;
+  border-bottom: 1px solid #27272a;
+}
+
+.scatter-modal-header h4 {
+  margin: 0;
+  color: #f4f4f5;
+}
+
+.scatter-modal-header button {
+  background: #27272a;
+  border: 1px solid #3f3f46;
+  color: #e4e4e7;
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.55rem;
+  cursor: pointer;
+}
+
+.scatter-modal-body {
+  padding: 0.9rem;
+}
+
+.scatter-expanded-axis-labels {
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-between;
+  color: #a1a1aa;
+  font-size: 0.7rem;
+}
+
+.scatter-hover-tooltip {
+  position: fixed;
+  z-index: 90;
+  background: rgba(9, 9, 11, 0.95);
+  border: 1px solid #3f3f46;
+  color: #e4e4e7;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.76rem;
+  pointer-events: none;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}

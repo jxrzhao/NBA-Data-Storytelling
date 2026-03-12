@@ -1,0 +1,198 @@
+[
+  {
+    "season": "96_97",
+    "technical_fta_per100": 0.294251,
+    "two_point_fta_per100": 7.239476,
+    "three_point_fta_per100": 0.138744,
+    "non_shooting_fta_per100": 2.775593
+  },
+  {
+    "season": "97_98",
+    "technical_fta_per100": 0.305121,
+    "two_point_fta_per100": 7.532844,
+    "three_point_fta_per100": 0.082381,
+    "non_shooting_fta_per100": 2.922449
+  },
+  {
+    "season": "98_99",
+    "technical_fta_per100": 0.258428,
+    "two_point_fta_per100": 7.390612,
+    "three_point_fta_per100": 0.087964,
+    "non_shooting_fta_per100": 2.892976
+  },
+  {
+    "season": "00_01",
+    "technical_fta_per100": 0.338531,
+    "two_point_fta_per100": 7.098983,
+    "three_point_fta_per100": 0.09759,
+    "non_shooting_fta_per100": 2.76795
+  },
+  {
+    "season": "01_02",
+    "technical_fta_per100": 0.365163,
+    "two_point_fta_per100": 7.002461,
+    "three_point_fta_per100": 0.090962,
+    "non_shooting_fta_per100": 2.468134
+  },
+  {
+    "season": "02_03",
+    "technical_fta_per100": 0.356225,
+    "two_point_fta_per100": 7.140026,
+    "three_point_fta_per100": 0.101594,
+    "non_shooting_fta_per100": 2.585784
+  },
+  {
+    "season": "03_04",
+    "technical_fta_per100": 0.302888,
+    "two_point_fta_per100": 7.148216,
+    "three_point_fta_per100": 0.119788,
+    "non_shooting_fta_per100": 2.475509
+  },
+  {
+    "season": "04_05",
+    "technical_fta_per100": 0.30865,
+    "two_point_fta_per100": 7.647812,
+    "three_point_fta_per100": 0.114524,
+    "non_shooting_fta_per100": 2.729395
+  },
+  {
+    "season": "05_06",
+    "technical_fta_per100": 0.318248,
+    "two_point_fta_per100": 7.686949,
+    "three_point_fta_per100": 0.14073,
+    "non_shooting_fta_per100": 2.752931
+  },
+  {
+    "season": "06_07",
+    "technical_fta_per100": 0.357981,
+    "two_point_fta_per100": 7.76294,
+    "three_point_fta_per100": 0.164239,
+    "non_shooting_fta_per100": 2.502871
+  },
+  {
+    "season": "07_08",
+    "technical_fta_per100": 0.289679,
+    "two_point_fta_per100": 7.706142,
+    "three_point_fta_per100": 0.172611,
+    "non_shooting_fta_per100": 2.21169
+  },
+  {
+    "season": "08_09",
+    "technical_fta_per100": 0.29987,
+    "two_point_fta_per100": 7.591258,
+    "three_point_fta_per100": 0.177217,
+    "non_shooting_fta_per100": 2.220643
+  },
+  {
+    "season": "09_10",
+    "technical_fta_per100": 0.28695,
+    "two_point_fta_per100": 7.642737,
+    "three_point_fta_per100": 0.203499,
+    "non_shooting_fta_per100": 2.110713
+  },
+  {
+    "season": "10_11",
+    "technical_fta_per100": 0.328376,
+    "two_point_fta_per100": 7.448296,
+    "three_point_fta_per100": 0.257278,
+    "non_shooting_fta_per100": 2.091961
+  },
+  {
+    "season": "11_12",
+    "technical_fta_per100": 0.281162,
+    "two_point_fta_per100": 6.935718,
+    "three_point_fta_per100": 0.198796,
+    "non_shooting_fta_per100": 1.920986
+  },
+  {
+    "season": "12_13",
+    "technical_fta_per100": 0.242498,
+    "two_point_fta_per100": 6.781604,
+    "three_point_fta_per100": 0.214977,
+    "non_shooting_fta_per100": 1.999428
+  },
+  {
+    "season": "13_14",
+    "technical_fta_per100": 0.242338,
+    "two_point_fta_per100": 7.055681,
+    "three_point_fta_per100": 0.312987,
+    "non_shooting_fta_per100": 2.187777
+  },
+  {
+    "season": "14_15",
+    "technical_fta_per100": 0.199357,
+    "two_point_fta_per100": 6.852996,
+    "three_point_fta_per100": 0.327324,
+    "non_shooting_fta_per100": 2.132884
+  },
+  {
+    "season": "15_16",
+    "technical_fta_per100": 0.235709,
+    "two_point_fta_per100": 6.877527,
+    "three_point_fta_per100": 0.387035,
+    "non_shooting_fta_per100": 2.183611
+  },
+  {
+    "season": "16_17",
+    "technical_fta_per100": 0.228943,
+    "two_point_fta_per100": 6.887092,
+    "three_point_fta_per100": 0.570301,
+    "non_shooting_fta_per100": 1.925774
+  },
+  {
+    "season": "17_18",
+    "technical_fta_per100": 0.21219,
+    "two_point_fta_per100": 6.392573,
+    "three_point_fta_per100": 0.513333,
+    "non_shooting_fta_per100": 1.910504
+  },
+  {
+    "season": "18_19",
+    "technical_fta_per100": 0.234144,
+    "two_point_fta_per100": 6.718239,
+    "three_point_fta_per100": 0.535187,
+    "non_shooting_fta_per100": 2.1357
+  },
+  {
+    "season": "19_20",
+    "technical_fta_per100": 0.22579,
+    "two_point_fta_per100": 6.707805,
+    "three_point_fta_per100": 0.62794,
+    "non_shooting_fta_per100": 2.05692
+  },
+  {
+    "season": "20_21",
+    "technical_fta_per100": 0.198713,
+    "two_point_fta_per100": 6.599543,
+    "three_point_fta_per100": 0.550405,
+    "non_shooting_fta_per100": 1.70989
+  },
+  {
+    "season": "21_22",
+    "technical_fta_per100": 0.243075,
+    "two_point_fta_per100": 6.608826,
+    "three_point_fta_per100": 0.410424,
+    "non_shooting_fta_per100": 1.781497
+  },
+  {
+    "season": "22_23",
+    "technical_fta_per100": 0.234232,
+    "two_point_fta_per100": 7.323322,
+    "three_point_fta_per100": 0.417005,
+    "non_shooting_fta_per100": 1.722304
+  },
+  {
+    "season": "23_24",
+    "technical_fta_per100": 0.243946,
+    "two_point_fta_per100": 6.842005,
+    "three_point_fta_per100": 0.369233,
+    "non_shooting_fta_per100": 1.518903
+  },
+  {
+    "season": "24_25",
+    "technical_fta_per100": 0.178897,
+    "two_point_fta_per100": 6.885084,
+    "three_point_fta_per100": 0.455832,
+    "non_shooting_fta_per100": 1.526376
+  }
+]

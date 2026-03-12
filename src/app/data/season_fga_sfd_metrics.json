@@ -1,0 +1,198 @@
+[
+  {
+    "season": "96_97",
+    "fg2a_per100": 25.733266,
+    "fg3a_per100": 6.995158,
+    "two_pt_sfd_pct": 0.139992,
+    "three_pt_sfd_pct": 0.007653
+  },
+  {
+    "season": "97_98",
+    "fg2a_per100": 27.550913,
+    "fg3a_per100": 5.304576,
+    "two_pt_sfd_pct": 0.136333,
+    "three_pt_sfd_pct": 0.005845
+  },
+  {
+    "season": "98_99",
+    "fg2a_per100": 26.780929,
+    "fg3a_per100": 5.457863,
+    "two_pt_sfd_pct": 0.136327,
+    "three_pt_sfd_pct": 0.006176
+  },
+  {
+    "season": "00_01",
+    "fg2a_per100": 27.613241,
+    "fg3a_per100": 5.691717,
+    "two_pt_sfd_pct": 0.128273,
+    "three_pt_sfd_pct": 0.006392
+  },
+  {
+    "season": "01_02",
+    "fg2a_per100": 27.448472,
+    "fg3a_per100": 6.146528,
+    "two_pt_sfd_pct": 0.127918,
+    "three_pt_sfd_pct": 0.005531
+  },
+  {
+    "season": "02_03",
+    "fg2a_per100": 27.209459,
+    "fg3a_per100": 6.134282,
+    "two_pt_sfd_pct": 0.130743,
+    "three_pt_sfd_pct": 0.006244
+  },
+  {
+    "season": "03_04",
+    "fg2a_per100": 26.750963,
+    "fg3a_per100": 6.193982,
+    "two_pt_sfd_pct": 0.132533,
+    "three_pt_sfd_pct": 0.007104
+  },
+  {
+    "season": "04_05",
+    "fg2a_per100": 26.629457,
+    "fg3a_per100": 6.550391,
+    "two_pt_sfd_pct": 0.142262,
+    "three_pt_sfd_pct": 0.006784
+  },
+  {
+    "season": "05_06",
+    "fg2a_per100": 25.939325,
+    "fg3a_per100": 6.634367,
+    "two_pt_sfd_pct": 0.147246,
+    "three_pt_sfd_pct": 0.007852
+  },
+  {
+    "season": "06_07",
+    "fg2a_per100": 25.833975,
+    "fg3a_per100": 7.030885,
+    "two_pt_sfd_pct": 0.14992,
+    "three_pt_sfd_pct": 0.008979
+  },
+  {
+    "season": "07_08",
+    "fg2a_per100": 26.16611,
+    "fg3a_per100": 7.483651,
+    "two_pt_sfd_pct": 0.145718,
+    "three_pt_sfd_pct": 0.008705
+  },
+  {
+    "season": "08_09",
+    "fg2a_per100": 25.841665,
+    "fg3a_per100": 7.525686,
+    "two_pt_sfd_pct": 0.146025,
+    "three_pt_sfd_pct": 0.008899
+  },
+  {
+    "season": "09_10",
+    "fg2a_per100": 26.187828,
+    "fg3a_per100": 7.531049,
+    "two_pt_sfd_pct": 0.145685,
+    "three_pt_sfd_pct": 0.010053
+  },
+  {
+    "season": "10_11",
+    "fg2a_per100": 26.029861,
+    "fg3a_per100": 7.443251,
+    "two_pt_sfd_pct": 0.142904,
+    "three_pt_sfd_pct": 0.012697
+  },
+  {
+    "season": "11_12",
+    "fg2a_per100": 25.996817,
+    "fg3a_per100": 7.578099,
+    "two_pt_sfd_pct": 0.133096,
+    "three_pt_sfd_pct": 0.0099
+  },
+  {
+    "season": "12_13",
+    "fg2a_per100": 25.560717,
+    "fg3a_per100": 8.2671,
+    "two_pt_sfd_pct": 0.132353,
+    "three_pt_sfd_pct": 0.010401
+  },
+  {
+    "season": "13_14",
+    "fg2a_per100": 25.292583,
+    "fg3a_per100": 8.921542,
+    "two_pt_sfd_pct": 0.139021,
+    "three_pt_sfd_pct": 0.013656
+  },
+  {
+    "season": "14_15",
+    "fg2a_per100": 25.213383,
+    "fg3a_per100": 9.34157,
+    "two_pt_sfd_pct": 0.135318,
+    "three_pt_sfd_pct": 0.013201
+  },
+  {
+    "season": "15_16",
+    "fg2a_per100": 24.933491,
+    "fg3a_per100": 10.005704,
+    "two_pt_sfd_pct": 0.137861,
+    "three_pt_sfd_pct": 0.014385
+  },
+  {
+    "season": "16_17",
+    "fg2a_per100": 24.082451,
+    "fg3a_per100": 11.22878,
+    "two_pt_sfd_pct": 0.143736,
+    "three_pt_sfd_pct": 0.01839
+  },
+  {
+    "season": "17_18",
+    "fg2a_per100": 23.569413,
+    "fg3a_per100": 12.03766,
+    "two_pt_sfd_pct": 0.138264,
+    "three_pt_sfd_pct": 0.016495
+  },
+  {
+    "season": "18_19",
+    "fg2a_per100": 23.588152,
+    "fg3a_per100": 13.268917,
+    "two_pt_sfd_pct": 0.144293,
+    "three_pt_sfd_pct": 0.015742
+  },
+  {
+    "season": "19_20",
+    "fg2a_per100": 22.444874,
+    "fg3a_per100": 14.175548,
+    "two_pt_sfd_pct": 0.150636,
+    "three_pt_sfd_pct": 0.017268
+  },
+  {
+    "season": "20_21",
+    "fg2a_per100": 22.267562,
+    "fg3a_per100": 14.335171,
+    "two_pt_sfd_pct": 0.149123,
+    "three_pt_sfd_pct": 0.014678
+  },
+  {
+    "season": "21_22",
+    "fg2a_per100": 21.858135,
+    "fg3a_per100": 14.561647,
+    "two_pt_sfd_pct": 0.152519,
+    "three_pt_sfd_pct": 0.011139
+  },
+  {
+    "season": "22_23",
+    "fg2a_per100": 22.346337,
+    "fg3a_per100": 14.150097,
+    "two_pt_sfd_pct": 0.164394,
+    "three_pt_sfd_pct": 0.011495
+  },
+  {
+    "season": "23_24",
+    "fg2a_per100": 22.236318,
+    "fg3a_per100": 14.504526,
+    "two_pt_sfd_pct": 0.155032,
+    "three_pt_sfd_pct": 0.009975
+  },
+  {
+    "season": "24_25",
+    "fg2a_per100": 21.385812,
+    "fg3a_per100": 15.509013,
+    "two_pt_sfd_pct": 0.159537,
+    "three_pt_sfd_pct": 0.01124
+  }
+]

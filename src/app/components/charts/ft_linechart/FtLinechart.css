@@ -1,0 +1,145 @@
+.ft-trend-panel {
+  background: rgba(9, 9, 11, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(63, 63, 70, 0.5);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.ft-trend-chart-wrap {
+  width: 100%;
+  height: calc(100% - 2rem);
+  position: relative;
+}
+
+.ft-trend-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ft-trend-grid {
+  stroke: #27272a;
+  stroke-dasharray: 3 3;
+}
+
+.ft-trend-axis {
+  stroke: #52525b;
+}
+
+.ft-trend-tick-label {
+  fill: #71717a;
+  font-size: 12px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.ft-trend-axis-label {
+  fill: #71717a;
+  font-size: 20px;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}
+
+.ft-trend-flat-band {
+  fill: #f97316;
+  fill-opacity: 0.1;
+}
+
+.ft-trend-between-area {
+  fill: #22c55e;
+  fill-opacity: 0.1;
+}
+
+.ft-trend-line {
+  fill: none;
+}
+
+.ft-trend-line-fta {
+  stroke: #f97316;
+  stroke-width: 3;
+}
+
+.ft-trend-line-ftm {
+  stroke: #22c55e;
+  stroke-width: 2.5;
+}
+
+.ft-trend-point {
+  fill: #18181b;
+  stroke-width: 2;
+}
+
+.ft-trend-point-fta {
+  stroke: #f97316;
+}
+
+.ft-trend-point-ftm {
+  stroke: #22c55e;
+}
+
+.ft-trend-point.is-interactive {
+  cursor: pointer;
+}
+
+.ftm-visible {
+  opacity: 1;
+  transition: opacity 450ms ease-in-out;
+}
+
+.ftm-hidden {
+  opacity: 0;
+  transition: opacity 450ms ease-in-out;
+}
+
+.ft-trend-hover-connector {
+  stroke: #e4e4e7;
+  stroke-width: 1.5;
+  stroke-dasharray: 3 3;
+  opacity: 0.9;
+}
+
+.ft-trend-hover-point {
+  fill: #18181b;
+  stroke-width: 2.2;
+}
+
+.ft-trend-hover-point-fta {
+  stroke: #f97316;
+}
+
+.ft-trend-hover-point-ftm {
+  stroke: #22c55e;
+}
+
+.ft-trend-tooltip {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgba(24, 24, 27, 0.95);
+  border: 1px solid #3f3f46;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  color: #f4f4f5;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  font-family: "Inter", "Avenir Next", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+.ft-trend-tooltip-season {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.ft-trend-tooltip-fta {
+  color: #fb923c;
+}
+
+.ft-trend-tooltip-ftm {
+  color: #4ade80;
+}
+
+.ft-trend-tooltip-pct {
+  color: #d4d4d8;
+}
