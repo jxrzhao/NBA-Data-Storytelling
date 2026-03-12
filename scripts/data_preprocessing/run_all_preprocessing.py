@@ -14,7 +14,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 PIPELINE = [
-    # "crawl_player_data.py",
+    "crawl_player_data.py",
     "build_ft_trend_data.py",
     "build_streamgraph_data.py",
     "build_fga_sfd_data.py",
