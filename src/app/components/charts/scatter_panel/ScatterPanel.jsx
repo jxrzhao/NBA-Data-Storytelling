@@ -362,6 +362,8 @@ function ScatterPanel() {
           <div>FTA/100: {(Number(hovered.player.fta_per100) || 0).toFixed(2)}</div>
           <div>2FGA/100: {(Number(hovered.player.fg2a_per100) || 0).toFixed(2)}</div>
           <div>3FGA/100: {(Number(hovered.player.fg3a_per100) || 0).toFixed(2)}</div>
+          <div>2PT SFD Rate: {((Number(hovered.player.two_pt_shooting_fouls_drawn_pct) || 0) * 100).toFixed(1)}%</div>
+          <div>3PT SFD Rate: {((Number(hovered.player.three_pt_shooting_fouls_drawn_pct) || 0) * 100).toFixed(1)}%</div>
         </div>
       )}
     </section>

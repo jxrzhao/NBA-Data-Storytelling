@@ -32,7 +32,7 @@ function App() {
           <Dribbble className="w-12 h-12 text-orange-600 mb-8 animate-pulse opacity-50 relative z-10" />
           
           <h1 className="font-sans font-black text-6xl md:text-8xl tracking-wide leading-snug uppercase text-transparent bg-clip-text bg-gradient-to-br from-zinc-100 to-zinc-600 mb-6 relative z-10 drop-shadow-2xl">
-            Is This A Basketball Game <br /> Or <span className="text-orange-500"> <br/>Is It Just A Free Throw <span style={{ textDecoration: "line-through" }}> Fantasy</span> Contest?</span>
+            Is This A Basketball Game <br /> Or <span className="text-orange-500"> <br/>Is This Just A Free Throw <span style={{ textDecoration: "line-through" }}> Fantasy</span> Contest?</span>
           </h1>
           
           <p className="font-serif text-xl md:text-2xl text-zinc-400 max-w-4xl mx-auto italic relative z-10">
