@@ -103,11 +103,11 @@ function App() {
         </NarrativeText>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-[90rem] mx-auto w-full">
           <div className="aspect-[4/5] relative rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl bg-zinc-900 flex items-center justify-center">
-            <img src="../../public/img/meme1.png" alt="Angry fan" className="object-contain w-full h-full" />
+            <img src={`${import.meta.env.BASE_URL}img/meme1.png`} alt="Angry fan" className="object-contain w-full h-full" />
  
           </div>
           <div className="aspect-[4/5] relative rounded-2xl overflow-hidden border border-zinc-800 shadow-2xl bg-zinc-900 flex items-center justify-center">
-            <img src="../../public/img/meme2.png" alt="Angry fan on phone" className="object-contain w-full h-full" />
+            <img src={`${import.meta.env.BASE_URL}img/meme2.png`} alt="Angry fan on phone" className="object-contain w-full h-full" />
  
           </div>
         </div>
